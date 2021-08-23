@@ -1,5 +1,6 @@
 <div>
     <p>{{$counter}}</p>
+    <p>Hydrate:{{$hydrate}}</p>
     <p><input wire:keydown.arrow-up="increment({{$step}}}})" wire:keydown.arrow-down="decrement({{$step}})" type="text"
               wire:model.lazy="step"/>
     </p>
