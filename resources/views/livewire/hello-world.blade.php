@@ -1,4 +1,3 @@
 <div>
-    Care about people's approval and you will be their prisoner.
-    <quote>{{$name}}</quote>
+    <h2>{{$count}}</h2>
 </div>

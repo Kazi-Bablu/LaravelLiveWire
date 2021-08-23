@@ -7,4 +7,8 @@
     <button wire:click="increment">+</button>
     |
     <button wire:click="decrement">-</button>
+
+    @for($i=1; $i<=10; $i++)
+        @livewire('hello-world',['count'=>$i])
+    @endfor
 </div>
