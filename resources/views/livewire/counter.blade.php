@@ -1,14 +1,5 @@
-<div>
-    <p>{{$counter}}</p>
-    <p>Hydrate:{{$hydrate}}</p>
-    <p><input wire:keydown.arrow-up="increment({{$step}}}})" wire:keydown.arrow-down="decrement({{$step}})" type="text"
-              wire:model.lazy="step"/>
-    </p>
+<div style="text-align:center">
     <button wire:click="increment">+</button>
-    |
+    <h1>{{$count}}</h1>
     <button wire:click="decrement">-</button>
-
-    @for($i=1; $i<=10; $i++)
-        @livewire('hello-world',['count'=>$i])
-    @endfor
 </div>
